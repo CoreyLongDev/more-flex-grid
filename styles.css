@@ -248,7 +248,7 @@ p{
     margin: 32px auto 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
 }
 
 #plants h4{
@@ -258,6 +258,7 @@ p{
 #plants img{
     /* Styles were added here to arrange the content, I used a property for a flexbox child to change the order that the content appears on the page */
     /* TO DO */
+    order: -1;
     width: 100%;
     max-width: 400px;
     height: auto;
@@ -270,7 +271,7 @@ p{
     padding: 12px 0;
     background-color: var(--mint);
     color: var(--dk-gray);
-    margin-top: 32px;
+    margin-top: auto;
 }
 
 /* Contact Section */
